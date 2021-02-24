@@ -1,0 +1,25 @@
+{
+    "name": "Ig profile",
+    "description": "Chrome extension that will open a new tab with Instagram profile based on selected text",
+    "version": "2.0.0",
+    "manifest_version": 2,
+    "background": {
+        "scripts": [
+            "src/background.js"
+        ]
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "js": [
+                "src/script.js"
+            ]
+        }
+    ],
+    "permissions": [
+        "contextMenus",
+        "activeTab"
+    ]
+}

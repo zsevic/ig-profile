@@ -1,0 +1,26 @@
+{
+  "name": "ig-profile",
+  "version": "1.0.0",
+  "description": "Chrome extension that will open a new tab with Instagram profile based on selected text",
+  "main": "src/background.js",
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "npm run lint -- --fix",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zsevic/ig-profile.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zsevic/ig-profile/issues"
+  },
+  "homepage": "https://github.com/zsevic/ig-profile#readme",
+  "devDependencies": {
+    "eslint": "^7.20.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1"
+  }
+}
